@@ -1,0 +1,85 @@
+﻿{
+  "data": [
+    {
+      "upc": "037600106252",
+      "category": "Peanut Butter",
+      "quantity": "15",
+      "point": "1",
+      "item_weight": "10 oz",
+	  "thumbnail": ""
+    },
+    {
+      "upc": "284692838359",
+      "category": "Beverage",
+      "quantity": "15",
+      "point": "2",
+      "item_weight": "21 oz",
+	  "thumbnail": ""
+    },
+    {
+      "upc": "013439583194",
+      "category": "Pastry",
+      "quantity": "15",
+      "point": "3",
+      "item_weight": "34 oz",
+	  "thumbnail": ""
+    },
+    {
+      "upc": "038039283571",
+      "category": "Snack",
+      "quantity": "15",
+      "point": "2",
+      "item_weight": "20 oz",
+	  "thumbnail": ""
+    },
+	{
+      "upc": "937291375928",
+      "category": "Pasta",
+      "quantity": "15",
+      "point": "2",
+      "item_weight": "22 oz",
+	  "thumbnail": ""
+    },
+	{
+      "upc": "378925992492",
+      "category": "Beverage",
+      "quantity": "15",
+      "point": "1",
+      "item_weight": "6 oz",
+	  "thumbnail": ""
+    },
+	{
+      "upc": "010240513624",
+      "category": "Coffee",
+      "quantity": "15",
+      "point": "3",
+      "item_weight": "49 oz",
+	  "thumbnail": ""
+    },
+	{
+      "upc": "090978947382",
+      "category": "Beverage",
+      "quantity": "15",
+      "point": "1",
+      "item_weight": "3 oz",
+	  "thumbnail": ""
+    },
+	{
+      "upc": "749392835923",
+      "category": "Beverage",
+      "quantity": "15",
+      "point": "1",
+      "item_weight": "5 oz",
+	  "thumbnail": ""
+    },
+	{
+      "upc": "284927582932",
+      "category": "Coffee",
+      "quantity": "15",
+      "point": "3",
+      "item_weight": "34 oz",
+	  "thumbnail": ""
+    }
+  ]
+}
+

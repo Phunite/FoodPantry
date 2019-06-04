@@ -1,0 +1,73 @@
+﻿#info-table .label{
+    float:none; 
+}
+
+#info-table .value {
+    margin-left: 20px;
+    float:none;
+}
+
+#info-table td {
+    text-align:center;
+    padding-left:0px;
+    font-size:14pt;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 38px !important;
+    padding: 4px !important;
+    display: block;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 4px;
+}
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        top: 7px !important;
+    }
+
+.pos{
+    margin: 5px 40px !important;
+}
+
+#pos-checkin{
+    width:89%;
+    height:98%;
+}
+
+.dataTables_empty {
+    font-family: source sans pro,sans-serif !important;
+    font-size: 0.875rem !important;
+    padding-top: 210px !important;
+}
+
+/*     modal    */
+
+.modal-header {
+    justify-content: center;
+    font-size: 35px;
+    color: #525252;
+    padding: 30px;
+}
+
+.btn-save {
+    color: white !important;
+    background-color: #8bc34a !important;
+    border-color: #8bc34a !important;
+}
+
+.btn-cancel {
+    color: white !important;
+    background-color: #ec4f4f !important;
+    border-color: #ec4f4f !important;
+}
+
+/*    required fields    */
+
+.required {
+    color: red;
+    margin-left: 5px;
+}

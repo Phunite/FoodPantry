@@ -1,0 +1,122 @@
+﻿body {
+}
+
+.navbar{
+    background-color:#a41e35;
+    margin-bottom:0px;
+}
+
+.navbar-brand{
+    color:white !important;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+/*                                   log in                               */
+.loginDiv {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 300px;
+    background-color: ##fffffe;
+    border: 2px solid #00000017;
+}
+
+#iconDiv {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.inputDiv {
+    width: 190px;
+    margin: 5px auto;
+}
+
+.inputText {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px !important;
+    color: #222;
+}
+
+.lostpassText {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px !important;
+    color: #a41e35;
+    transition: ease-in-out 1s;
+}
+
+.submitDiv {
+    width: 220px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: inherit !important;
+}
+
+.submitCol {
+    margin: 0 5px;
+}
+
+#logo {
+    width: 220px;
+}
+
+.loginDiv .lead {
+    margin-bottom: 2px;
+}
+
+@media (min-width:767px) {
+    #fullvideo {
+        right: 0;
+    }
+
+    .bioTitle {
+        text-align: left;
+    }
+}
+
+@media (max-width:767px) {
+    #fullvideo {
+        right: -50%;
+    }
+}
+
+.btn {
+    font-family: 'Open Sans' !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    transition: ease-in-out 1s;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a .lostpassText:hover {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #a41e35 !important;
+    border-color: #a41e35 !important;
+    font-family: "Open-Sans";
+}
+
+.btn-secondary {
+    color: #6c757d !important;
+    background-color: #ffffff !important;
+    border-color: #ced4da !important;
+    font-family: "Open-Sans";
+}

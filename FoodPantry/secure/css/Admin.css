@@ -1,0 +1,69 @@
+﻿.button-wrapper {
+    margin: 5px 0px;
+}
+
+.badge {
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: white;
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: white;
+}
+
+.select2-selection {
+    padding: 3px 0px !important;
+    height: 38px !important;
+}
+
+.error-text {
+    display: block;
+    font-weight: bold;
+    color: red;
+}
+
+/*    required fields    */
+
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+/*     modal    */
+
+.modal-header {
+    justify-content: center;
+    font-size: 35px;
+    color: #525252;
+    padding: 30px;
+}
+
+.btn-save {
+    color: white !important;
+    background-color: #8bc34a !important;
+    border-color: #8bc34a !important;
+}
+
+.btn-cancel {
+    color: white !important;
+    background-color: #ec4f4f !important;
+    border-color: #ec4f4f !important;
+}

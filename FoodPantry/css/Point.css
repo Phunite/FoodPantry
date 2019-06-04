@@ -1,0 +1,49 @@
+﻿    .input-group span.input-group-btn, .input-group input, .input-group button {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .input-group {
+        position: relative;
+    }
+
+        .input-group span.data-up {
+            position: absolute;
+            top: 0;
+        }
+
+        .input-group span.data-dwn {
+            position: absolute;
+            bottom: 0;
+        }
+
+    .form-control.text-center {
+        margin: 34px 0;
+    }
+
+    .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+        margin-left: 0;
+    }
+#qty_input {
+    text-align: center;
+    font-weight: bold;
+}
+
+#input-wrapper {
+    width: 40%;
+    margin: 20px auto;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}

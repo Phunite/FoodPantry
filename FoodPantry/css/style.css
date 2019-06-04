@@ -1,0 +1,40 @@
+﻿.btn-primary {
+	color: #ffffff;
+	background-color: #a41e35 !important;
+	border-color: #a41e35 !important;
+    font-family: "Open-Sans";
+}
+.btn-secondary {
+    color: #6c757d !important;
+    background-color: #ffffff !important;
+    border-color: #ced4da !important;
+    font-family: "Open-Sans";
+}
+h1{
+    color: #A41E35 !important;
+    font-size: 35px !important;
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+
+}
+h3{
+    color: black;
+    font-size: 25px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+}
+h5{
+    color: black;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+}
+
+.donorSearchIcon{
+    color:#A41E35;
+}
+
+.usertypediv{
+    margin-left:15px;
+    margin-bottom:15px;
+}

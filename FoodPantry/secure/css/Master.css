@@ -1,0 +1,423 @@
+﻿/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+    overflow-x: hidden;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: source sans pro,sans-serif !important;
+}
+
+.col-xs-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.content {
+    min-height: 250px;
+    padding: 10px 20px 15px 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.navbar {
+    background-color: #a41e35;
+    height: 60px;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: unset;
+}
+
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #fff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+
+    .box.box-primary {
+        border-top-color: #3c8dbc;
+    }
+
+    .box.box-success {
+        border-top-color: #00a65a;
+    }
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 15px 10px 10px 10px;
+    position: relative;
+    background-color: #4d719f33;
+    height: 70px;
+}
+
+.header-text {
+    float: left;
+}
+
+.header-button {
+    float: right;
+    margin-right: 20px;
+}
+
+
+    .header-button button:hover {
+        background-color: #25a425 !important;
+        border-color: #25a425 !important;
+    }
+
+.box-body {
+    padding: 10px 20px 20px 20px;
+    border-radius: 0 0 3px 3px;
+}
+
+.material-icons {
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+
+.center-button {
+    width: 15%;
+    margin: 15px;
+}
+
+    .center-button:hover {
+        -webkit-transform: translate(0px,-3px);
+        transform: translate(0px,-3px);
+    }
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button-wrapper {
+    padding-bottom: 10px;
+}
+
+.btn-success {
+    background-color: #8bc34a !important;
+    border-color: #8bc34a !important;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background-color: #343a40;
+    border-right: none !important;
+    color: whitesmoke;
+    margin-left: 0;
+    width: 17em;
+    transition: 0.5s ease-in-out;
+}
+
+    #sidebar-wrapper .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+        background-color: #90293b;
+        height: 59px;
+        transition: 1s ease-in-out;
+    }
+
+    #sidebar-wrapper .list-group {
+        /* width: 15rem; */
+    }
+
+button.bg-dark:focus {
+    background-color: inherit !important;
+    color: white !important;
+    border: none !important;
+    border-left: 3px solid #a41e35 !important;
+    outline: none !important;
+}
+
+.list-group-item {
+    color: #b8c7ce;
+    transition: 0.5s ease-in-out;
+}
+
+    .list-group-item.list-group-item-action.bg-dark:hover {
+        color: white;
+        transition: 0.5s ease-in-out;
+    }
+
+    .list-group-item.list-group-item-action.bg-dark:focus {
+        background-color: none;
+        transition: 0.5s ease-in-out;
+    }
+
+.link-active {
+    background-color: #1d2124 !important;
+    color: white;
+    border-left: 3px solid #a41e35 !important;
+    transition: 0.5s ease-in-out;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+    min-width: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ecf0f5;
+    z-index: 98;
+}
+
+#mainContent {
+    background-color: #ecf0f5;
+    height: 100%;
+}
+
+.page-link {
+    color: darkslategrey;
+}
+
+.page-item.active .page-link {
+    border-color: #343a40 !important;
+    background-color: #343a40 !important;
+    color: #b8c7ce !important;
+}
+
+.content-header {
+    position: relative;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+.dropdown-container {
+    display: none;
+    height: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.dropdown-item {
+    background-color: #51565A !important;
+    color: #ededed;
+    display: inline-block !important;
+    vertical-align: middle;
+    padding-left: 25px;
+    height: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+    .dropdown-item.link-active {
+        font-weight: bolder;
+    }
+
+    .dropdown-item .material-icons {
+        font-size: 12pt;
+        vertical-align: middle;
+    }
+
+p .material-icons {
+    position: absolute;
+    right: 10px;
+}
+
+    p .material-icons.icon-down {
+        display: none;
+    }
+
+.box-header h3 {
+    margin-left: 10px;
+}
+
+.sidebar-hide {
+    width: 65px !important;
+    transition: 0.5s ease-in-out;
+}
+
+    .sidebar-hide .sidebar-text {
+        display: none;
+    }
+
+    .sidebar-hide .sidebar-heading-text {
+        display: none;
+    }
+
+    .sidebar-hide .sidebar-heading-img {
+        display: flex;
+        justify-content: center;
+        width: 24px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .sidebar-hide .sidebar-heading {
+        padding: 0.575rem 1.25rem !important;
+        background-color: white !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .sidebar-hide .sidebar-header #donationddl {
+        display: none !important;
+    }
+
+    .sidebar-hide .sidebar-header #adminddl {
+        display: none !important;
+    }
+
+    .sidebar-hide .sidebar-header #btnDonationDropDown {
+        border-left: none !important;
+    }
+
+    .sidebar-hide .sidebar-header #btnAdminDropDown {
+        border-left: none !important;
+    }
+
+.sidebar-text {
+    margin-bottom: 0 !important;
+    overflow: hidden;
+}
+
+.sidebar-heading-img {
+    display: none;
+}
+
+.list-group-item {
+    display: flex;
+    height: 56px;
+}
+
+.btn-navbar {
+    background-color: #ffffff00;
+}
+
+    .btn-navbar:focus, .btn-navbar.active {
+        background-image: none;
+        outline: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .btn-navbar:hover .hamburger {
+        color: black;
+        transition: 0.5s ease-in-out;
+    }
+
+.hamburger {
+    font-size: 30px !important;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.myBtnEdit {
+    border: none !important;
+    background-color: #ffffff00 !important;
+    font-size: 1.3em;
+    color: #565656;
+    cursor: pointer;
+}
+
+.form-focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-error {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f27474;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #f27474;
+}
+
+
+.box-loading {
+    position: fixed;
+    width: 131px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+}
+
+    .box-loading > div {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        width: 120px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: white;
+        border-radius: 147px;
+    }
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.load {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+#load-body p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+    z-index: 2;
+    top: 48px;
+    left: 25px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.dt-button{
+    display:inline-block;
+}

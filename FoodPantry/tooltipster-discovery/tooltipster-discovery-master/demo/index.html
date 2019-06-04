@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="http://iamceege.github.io/tooltipster/dist/css/tooltipster.bundle.min.css" />
+		
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="http://iamceege.github.io/tooltipster/dist/js/tooltipster.bundle.js"></script>
+		<script type="text/javascript" src="../tooltipster-discovery.js"></script>
+		
+		<style>
+			
+			body {
+				margin: 0;
+				min-height: 1500px;
+				padding: 50px;
+			}
+			
+			.tooltip {
+				font-size: 30px;
+			}
+			
+		</style>
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function() {
+				
+				$('.tooltip').tooltipster({
+					animationDuration: 1000,
+					delay: 1000
+				});
+				
+				$.tooltipster.group('tooltip');
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" value="❤" title="Add to favorites" class="tooltip" />
+		<input type="button" value="☂" title="Dance in the rain" class="tooltip" />
+		<input type="button" value="♞" title="Play chess" class="tooltip" />
+		<input type="button" value="☯" title="Turn off the computer and meditate" class="tooltip" />
+	</body>
+</html>

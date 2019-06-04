@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CherryPantry.master.cs" Inherits="FoodPantry.CherryPantry" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--js plugins--%>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="plugin/dist/popper.min.js"></script>
+    <script type="text/javascript" src="plugin/dist/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/Master.js"></script>
+    <script type="text/javascript" src="plugin/dist/sweetalert2.all.min.js"></script>
+
+    <%--css stylesheet--%>
+    <link rel="stylesheet" href="plugin/dist/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/Master.css" />
+    <link rel="stylesheet" href="plugin/webfonts/material-icons.css"/>
+    <link rel="stylesheet" href="plugin/webfonts/MaterialIcons-Regular.ttf"/>
+    <link rel="stylesheet" type="text/css" href="plugin/dist/sweetalert2.min.css" />
+    <link rel="stylesheet" type="text/css" href="plugin/dist/all.min.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar -->
+            <div class="border-right sidebar-hide" id="sidebar-wrapper">
+                <div class="sidebar-heading">
+                    <p class="sidebar-heading-text">Cherry Pantry</p>
+                    <img class="sidebar-heading-img" src="images/cherrypantrycherry.png" />
+                </div>
+                <div class="list-group list-group-flush sidebar-header">
+
+                    <!--     <a href="#" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">dashboard</i><p class="sidebar-text">Dashboard</p>
+                    </a> -->
+                    <a href="Checkout.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">local_mall</i><p class="sidebar-text">Checkout</p>
+                    </a>
+                    <a href="CheckinScan.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">store</i><p class="sidebar-text">Check-In</p>
+                    </a>
+                    <a href="Inventory.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">assignment</i><p class="sidebar-text">Inventory</p>
+                    </a>
+                    <button id="btnDonationDropDown" class="list-group-item list-group-item-action bg-dark dropdown-btn" type="button">
+                        <i class="material-icons">card_giftcard</i><p class="sidebar-text">Donations<i class="material-icons icon-down " id="donationdown">keyboard_arrow_down</i><i class="material-icons icon-left" id="donationleft">keyboard_arrow_left</i></p>
+                    </button>
+                    <div class="dropdown-container" id="donationddl" aria-label="btnDonationDropDown">
+                        <a href="Donation.aspx" class="list-group-item list-group-item-action bg-dark dropdown-item">New Donation</a>
+                        <a href="DonationHistory.aspx" class="list-group-item list-group-item-action bg-dark dropdown-item">Donation History</a>
+                    </div>
+                    <a href="Sales.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">receipt</i><p class="sidebar-text">Sales</p>
+                    </a>
+                    <button id="btnAdminDropDown" class="list-group-item list-group-item-action bg-dark dropdown-btn" type="button">
+                        <i class="material-icons">settings_applications</i><p class="sidebar-text">Admin<i class="material-icons icon-down" id="admindown">keyboard_arrow_down</i><i class="material-icons icon-left" id="adminleft">keyboard_arrow_left</i></p>
+                    </button>
+                    <%--                    </a>--%>
+
+                    <div class="dropdown-container" id="adminddl" aria-label="btnAdminDropDown">
+                        <a href="ManageUsers.aspx" class="list-group-item list-group-item-action bg-dark dropdown-item">Manage Users</a>
+                        <a href="ManageCategories.aspx" class="list-group-item list-group-item-action bg-dark dropdown-item">Manage Categories</a>
+                        <a href="Points.aspx" class="list-group-item list-group-item-action bg-dark dropdown-item">Manage Point Limit</a>
+                    </div>
+                    <%--                    <a href="Donation.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">card_giftcard</i><p class="sidebar-text">Donations</p>
+                    </a>
+                    <a href="DonationHistory.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">list_alt</i><p class="sidebar-text">Donations History</p>
+                    </a>--%>
+
+                    <%--                    <a href="Admin.aspx" class="list-group-item list-group-item-action bg-dark"><i class="material-icons">settings_applications</i><p class="sidebar-text">Admin</p>
+                    </a>--%>
+                    <%--<button class="dropdown-btn list-group-item list-group-item-action bg-dark">Dropdown<i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-container list-group-item list-group-item-action bg-dark">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>--%>
+                    <%--                    <a href="" class="list-group-item list-group-item-action bg-dark" style="border:none; padding:0px;">--%>
+                </div>
+            </div>
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+
+                <!--NavBar -->
+                <nav class="navbar navbar-expand-lg   border-bottom">
+                    <button class="btn btn-navbar" id="menu-toggle" onclick="return false;"><i class="material-icons hamburger">menu</i></button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <%--Page Title Placeholder--%>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <asp:Label ID="lblNavDate" runat="server"></asp:Label>
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <i class="material-icons" style="position: absolute;">person</i>
+                                    <div style="width: 32px; display: inline-block"></div>
+                                    <asp:Label ID="lblUser" runat="server" Text="User"></asp:Label>
+                                    <asp:HiddenField ID="hfUser" runat="server" />
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" id="btnLogout" href="#" onclick="Logout">Log Out</a>
+                                    <%--<asp:Button ID="btnLogout" runat="server" Text="Logout" CssClass="btn btn-Default" />--%>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+                <asp:HiddenField ID="hfRole" runat="server" />
+
+                <%--Loader--%>
+                <div class="box-loading" id="loader">
+                    <div class="display-loading open"></div>
+                    <div id="load-body">
+                        <p>Loading</p>
+                        <div class="load"></div>
+                    </div>
+                </div>
+
+                <!--Content-->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

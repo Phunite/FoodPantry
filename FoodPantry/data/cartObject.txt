@@ -1,0 +1,18 @@
+﻿{
+  "data": [
+    {
+       "thumbnail": "",
+	   "upcCode": "123456789111",
+	   "description": "Peanut Butter",
+       "quantity": "1",
+       "pointValue": "2"
+    },
+	 {
+       "thumbnail": "",
+	   "upcCode": "987654321345",
+	   "description": "Soup",
+       "quantity": "2",
+       "pointValue": "3"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+﻿.buttonWrapper button {
+    margin: 0px 11px;
+    border-radius: 0;
+    height: 45px;
+    width:15%;
+}
+
+.formsubmitbtn {
+    margin: 0px 11px;
+    border-radius: 0;
+    height: 45px;
+    width: 15%;
+}
+
+.form-focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-error {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f27474;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #f27474;
+}
+
+#checkbox-wrapper {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px;
+    display: inline-block;
+    text-align: center;
+}
+
+#txtSaveDonor{
+    width:500px;
+    display:none;
+}
+
+#btnSavedDonors{
+    margin:10px 0px;    
+}
+
+#donorTable thead tr {
+    background: lightgray;
+}

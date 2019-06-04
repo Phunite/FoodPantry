@@ -1,0 +1,118 @@
+﻿
+
+.lblChkReceipt {
+    font-size: 20px;
+}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: white;
+}
+.tooltipper {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    /*box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);*/
+    color: white;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+}
+
+.pagination1 {
+    bottom: 0;
+    position: fixed;
+}
+
+.lblReceipt {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#details1 {
+    display: none;
+}
+
+#details2 {
+    display: none;
+}
+
+#details3 {
+    display: none;
+}
+
+#details {
+    display: none;
+}
+
+#details21 {
+    display: none;
+}
+
+glyphicon glyphicon-plus {
+    color: black;
+}
+
+.btn btn-primary {
+    background-color: #a41e35;
+}
+
+html {
+    white-space: normal;
+}
+
+.chkContainer {
+    background-color: white;
+    border-radius: 10px;
+}
+
+    .chkContainer :hover {
+        background-color: lightgray;
+        color: black;
+        border-radius: 10px;
+    }
+
+.chkContainerText :hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+}
+.myBtnEdit {
+    border: none !important;
+    background-color: #ffffff00 !important;
+    font-size: 1.3em;
+    color: #565656;
+    cursor: pointer;
+}
+
+.swal2-popup .swal2-content {
+    padding: 20px;
+    font-weight: normal !important;
+}
+swal2-modal{
+    width:45%;
+}
+
+#table-receipt td:last-child, #table-receipt th:last-child {
+    border-left: 1px solid black;
+}
+
+#table-receipt tbody tr:last-child {
+    border-top: 2px solid black;
+    font-weight:bold;
+}
+
+#table-receipt  td {
+}
+.swal {
+    width: 40%;
+    min-width: 600px;
+}

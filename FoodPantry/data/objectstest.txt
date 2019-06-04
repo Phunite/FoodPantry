@@ -1,0 +1,4 @@
+﻿{"data": [ 
+{ 
+"UPC": "12345678912", "Category": "Snack", "Weight": 0.6, "Point": 12, "Quantity": 3 }, { "UPC": "12441234411", "Category": "Snack", "Weight": 0.5, "Point": 1, "Quantity": 2 }, { "UPC": "23124241232", "Category": "Chips", "Weight": 12.0, "Point": 2, "Quantity": 1 }, { "UPC": "23241512322", "Category": "Water", "Weight": 12.0, "Point": 2, "Quantity": 2 } ]
+}

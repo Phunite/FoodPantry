@@ -1,0 +1,51 @@
+﻿@media only screen and (min-width: 468px) {
+    .card {
+        width: 100% !important;
+        margin: 8px 10px;
+        text-align:center;
+    }
+
+    .category {
+        margin: 0px;
+        /*width: 100%;*/
+        /*max-width:198px;*/
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        width: 44% !important;
+        margin: 8px 10px;
+    }
+
+    .category {
+         margin: 0px;
+         width: 51%;
+    }
+}
+
+@media only screen and (min-width: 1155px) {
+    .card {
+        width: 29% !important;
+        margin: 8px 10px;
+    }
+
+    .category {
+        margin: 0px;
+        width: 57%;
+    }
+}
+
+
+@media only screen and (min-width: 1260px) {
+    .card {
+        width: 22% !important;
+        margin: 8px 10px;
+    }
+
+    .category {
+        margin: 0px;
+        width: 57%;
+    }
+}
+

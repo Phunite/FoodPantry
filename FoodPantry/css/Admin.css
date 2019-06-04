@@ -1,0 +1,39 @@
+﻿.button-wrapper{
+    margin:5px 0px;
+}
+.badge {
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: white;
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: white;
+}
+
+.select2-selection {
+    padding: 3px 0px !important;
+    height: 38px !important;
+}
+
+.error-text {
+    display: block;
+    font-weight: bold;
+    color: red;
+}

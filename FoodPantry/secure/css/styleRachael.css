@@ -1,0 +1,76 @@
+﻿.btn-primary {
+	color: #ffffff;
+	background-color: #a41e35 !important;
+	border-color: #a41e35 !important;
+}
+.gap {
+	margin:50px;
+}
+
+.checkout-buttons {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.cart-icon {
+    width: 54px;
+    height: 54px;
+    margin-top: -22px;
+}
+
+.cart-title {
+    display: inline-block;
+}
+
+.table thead > tr > th {
+    text-align: center;
+}
+
+.table thead > tr > th.checkout-buttons {
+    text-align: right;
+}
+
+.table tbody > tr > td {
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table tbody > tr > td.button-group {
+    text-align: right;
+}
+
+.table thead > tr > th {
+    font-size: 20px;
+}
+
+.header-container {
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.control-label{
+    margin-top:40px;
+
+}
+
+.btnShoppingEdit{
+    margin:5px 0;
+    /*width: 86px;*/
+}
+
+.btnShoppingDel {
+    margin: 5px 0;
+    width: 86px;
+}
+.btn-secondary {
+    color: #6c757d !important;
+    background-color: #ffffff !important;
+    border-color: #ced4da !important;
+}

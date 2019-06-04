@@ -1,0 +1,330 @@
+﻿.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.01) !important;
+}
+
+th {
+    color: #565656;
+}
+
+td {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+    top: 18px !important;
+    left: 6px !important;
+    background-color: #8bc34a;
+    font-weight: 600;
+    height: 13px !important;
+    width: 13px !important;
+}
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #343a40;
+    border-color: #a41e35;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-sidetip.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: white;
+}
+
+.table td {
+    border: 0.5px solid #dee2e6;
+}
+
+.table thead th {
+    border: 0.5px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+}
+
+
+.inventory-icon {
+    font-size: 35px;
+}
+
+
+#inventory-datatable {
+}
+
+.datatable-header {
+    position:relative;
+    top:-80px;
+}
+
+.datatable-header > h2{
+    color:white;
+    margin-left:10px;
+    font-family:sans-serif;
+}
+
+.datatable-wrapper {
+    padding: 20px !important;
+    border-top: 80px solid #343a40;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px -40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.myBtnEdit {
+    border: none !important;
+    background-color: #ffffff00 !important;
+    font-size: 1.3em;
+    color: #565656;
+    cursor:pointer;
+}
+
+#datatable-title {
+    color: #b8c7ce;
+    font-size: 1.7em !important;
+    margin-left:10px;
+}
+
+.page-item.active .page-link {
+    border-color: #343a40 !important;
+    background-color: #343a40 !important;
+    color: #b8c7ce !important;
+}
+
+/*toggle button*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top:4px;
+    margin-right:20px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    z-index: 2;
+    content: "";
+    height: 30px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    background-color: #6d6d6d;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+    -webkit-transition: .4s;
+    transition: all 0.4s ease-in-out;
+}
+
+    .slider:after {
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        content: "In Stock";
+        font-size: 16px;
+        text-align: left !important;
+        line-height: 28px;
+        padding-left: 0;
+        width: 100px;
+        color: #fff;
+        height: 30px;
+        border-radius: 100px;
+        background-color: #4290be;
+        -webkit-transform: translateX(-160px);
+        -ms-transform: translateX(-160px);
+        transform: translateX(-160px);
+        transition: all 0.4s ease-in-out;
+    }
+
+input:checked + .slider:after {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    padding-left: 11px;
+}
+
+input:checked + .slider:before {
+    background-color: #fff;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(71px);
+    -ms-transform: translateX(71px);
+    transform: translateX(71px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 100px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.none-active {
+    position: absolute;
+    left: 0;
+    color: darkslategrey;
+    text-align: right !important;
+    font-size: 16px;
+    width: calc(100% - 25px);
+    /*height: 100px;*/
+    line-height: 28px;
+    cursor: pointer;
+    margin-left:-8px;
+}
+
+.page-link {
+    color: darkslategrey;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.switch-row{
+    margin-left:0 !important;
+    margin-right: 0 !important;
+}
+
+.switch-row h3{
+    margin-right:20px;
+}
+
+th, td {
+    white-space: nowrap;
+}
+
+div.dataTables_wrapper {
+    margin: 0 auto;
+}
+
+div.container {
+    width: 80%;
+}
+
+.important {
+    color: white;
+    background-color: #dc3545bd;
+}
+    .important:hover {
+        color: white;
+        background-color: #dc3545bd !important;
+    }
+    .important td {
+        color: white;
+    }
+.toolbar{
+    padding-bottom:15px;
+    padding-left:16px;
+    padding-top:10px
+}
+    .toolbar .custom-select{
+        width:60%;
+    }
+
+
+.dataTables_filter{
+    float:right;
+}
+
+#catselect{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#pacselect {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#ptselect {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*  Select 2*/
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da !important;
+}
+
+.select2-container .select2-selection--single {
+    height: calc(2.25rem + 2px) !important;
+    padding: 0.175rem 0.14rem !important;
+}
+
+/*    required fields    */
+
+.required{
+    color:red;
+    margin-left:5px;
+}
+
+/*     modal    */
+
+.modal-header {
+    justify-content: center;
+    font-size: 35px;
+    color: #525252;
+    padding:30px;
+}
+
+.btn-save {
+    color: white !important;
+    background-color: #8bc34a !important;
+    border-color: #8bc34a !important;
+}
+
+.btn-cancel {
+    color: white !important;
+    background-color: #ec4f4f !important;
+    border-color: #ec4f4f !important;
+}
+
+/*     responsive    */
+
+@media all and (max-width:991px){
+
+    #inventory-datatable {
+        display:block;
+        overflow-x:auto;
+        overflow-y:hidden;
+    }
+
+    #donation-datatable_filter{
+        padding:15px 0 0 0;
+    }
+
+}
+
+@media all and (max-width:1420px) {
+
+    #donation-datatable {
+        display: block;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+}
+.badge-secondary {
+    width: auto;
+    padding: 10px !important;
+    text-align: center;
+}

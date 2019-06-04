@@ -1,0 +1,34 @@
+﻿body {
+}
+
+@media only screen and (max-width: 1705px) {
+    .category {
+        width: 53%;
+    }
+}
+@media only screen and (max-width: 1545px) {
+    .card {
+        display: inline-block;
+        width: 30% !important;
+        margin: 8px 10px;
+    }
+}
+@media only screen and (max-width: 1437px) {
+    .card {
+        display: inline-block;
+        width: 29% !important;
+        margin: 8px 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 60% !important;
+        margin: auto;
+        vertical-align: top;
+    }
+
+    .category {
+        width: 50%;
+    }
+}

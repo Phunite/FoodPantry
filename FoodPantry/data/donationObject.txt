@@ -1,0 +1,14 @@
+﻿{
+  "data": [
+    {
+       "donationID": "001",
+	   "date": "02/02/2019",
+	   "type": "Donation",
+       "donorType": "Individual",
+       "name": "Kate Smith",
+	   "templeAffiliation": "Yes",
+	   "tuID": "123456789",
+	   "email": "tuf@temple.edu"
+    }
+  ]
+}
