@@ -7,4 +7,4 @@ Removed Temple Authentication Code
 
 
 
-https://cherrypantry.azurewebsites.net/secure/Checkout.aspx
+https://cherryfoodpantry.azurewebsites.net
